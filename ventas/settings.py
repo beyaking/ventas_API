@@ -37,7 +37,18 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
+
+    #Apps
+    'compras',
+    'producto',
+    'usuario',
+
+
 ]
+#Modifiacion de modelo de usuario
+
+AUTH_USER_MODEL = 'usuario.CustomUser'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
